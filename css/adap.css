@@ -1,5 +1,5 @@
 @media only screen and (max-width: 980px){
-	#mobMenu{
+	#mob-menu{
 		display: block;
 	}
 	#desk{
@@ -20,7 +20,7 @@
 
 	/* for index.css */
 
-	#img{
+	.img{
 		width: 100%;
 		margin-left: 0;
 	}
@@ -28,7 +28,7 @@
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	#content{
+	.content{
 		width: 100%;
 		margin-left: 0;
 	}
@@ -85,18 +85,18 @@
 	.share{
 		display: none;
 	}
-	.shareMob{
+	.share-mobile{
 		display: block;
 		width: 100%;
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
-	.shareMob #but{
+	.share-mobile #but{
 		margin-top: -50px;
 	}
 
-	#what{
+	.what{
 		width: 100%;
 		margin-left: 0;
 	}
@@ -105,7 +105,7 @@
 		width: 90%;
 		margin-left: 5%;
 	}
-	#form{
+	.form{
 		width: 100%;
 		margin-left: 0;
 		border-left: none;

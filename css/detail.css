@@ -1,4 +1,11 @@
 
+.test{
+	background: url(img/ava.png);
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
 #img1{
 	width: 100%;
 	max-width: 1200px;
@@ -96,6 +103,7 @@
 	display: inline;
 	border: 1px solid silver;
 	width: 50px;
+	height: 30px;
 	text-align: center;
 }
 

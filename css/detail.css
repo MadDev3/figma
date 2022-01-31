@@ -1,0 +1,280 @@
+
+#img1{
+	width: 100%;
+}
+
+#txt1{
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	font-size: 30px;
+}
+
+#txt2{
+	width: 38%;
+	margin-left: 31%;
+	text-align: center;
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.text{
+	width: 50%;
+	margin-left: 25%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.text p{
+	margin-top: 50px;
+}
+
+#po{
+	margin-top: -20px;
+}
+.text hr{
+	size: 10px;
+	height: 2px;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#ava{
+	margin-top: 10px;
+}
+
+#ava img{
+	border-radius: 100px;
+}
+
+#name{
+	position: relative;
+	top: -65px;
+	left: 65px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Dongle', sans-serif;
+}
+
+#data{
+	position: relative;
+	top: -70px;
+	left: 65px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+#but{
+
+	float: right;
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	margin-top: -100px;
+}
+
+#f,#t{
+	float: right;
+	display: inline;
+	border: 1px solid silver;
+	width: 50px;
+	text-align: center;
+}
+#w{
+	float: right;
+	display: none;
+	border: 1px solid silver;
+	width: 50px;
+	text-align: center;
+}
+#f{
+	border-left: 0px;
+}
+
+.text h2{
+	font-weight: bold;
+	margin-top: 50px;
+}
+#post{
+	width: 120%;
+	text-align: center;
+	margin-left: -10%;
+	margin-top: 30px;
+}
+#imgTxt{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	font-size: 15px;
+}
+
+ul{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+li{
+	margin-bottom: 10px;
+}
+
+#share{
+	display: inline-block;
+	float: right;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#shareMob{
+	display: none;
+}
+
+#facebook,#twitter{
+	float: right;
+	border: 1px solid silver;
+	text-align: center;
+	display: inline;
+	width: 49.75%;
+}
+
+#twitter{
+	border-left: 0;
+	margin-left: 0;
+}
+
+#share img{
+	margin-right: 10px;
+}
+#tag{
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+#tag span{
+	text-decoration: underline;
+}
+
+#dash{
+	background-color: white;
+	height: 15px;
+	border: none;
+	border-top: 2px dotted silver;
+}
+
+#m{
+	width: 11%;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#m img{
+	border-radius: 100px;
+	width: 100%;
+}
+
+#mika{
+	width: 70%;
+	display: inline;
+	font-size: 18px;
+}
+#mika span{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+#eye{
+	margin-top: 50px;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	text-align: center;
+}
+
+#eye img{
+	margin-top: -30px;
+}
+
+#what{
+	margin-top: 50px;
+	width: 30%;
+	margin-left: 35%;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+#grid3{
+	margin-top: 20px;
+	width: 70%;
+	margin-left: 15%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.artImg {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#form{
+	margin-top: 50px;
+	width: 40%;
+	height: auto;
+	margin-left: 30%;
+	border: 1px solid gray;
+	border-top: 7px solid black;
+	margin-bottom: 30px;
+}
+
+#sign{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#txtSign{
+	text-align: center;
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+#btn{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	height: 40px;
+	padding: 0;
+
+}
+#btn input{
+	width: 60%;
+	height: 100%;
+	border: 1px solid black;
+	margin-right: 0;
+		font-size: 15px;
+		font-family: 'Roboto', sans-serif;
+}
+
+#btn button{
+	width: 30%;
+	height: 100%;
+	border: 10px solid black;
+	margin-left: 0;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	color: black;
+}
+
+
+/* стили для шапки*/
+header{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid silver;
+}
+
+#logo{
+	float: left;
+	font-size: 35px;
+	margin-top: 27px;
+	margin-left: 40px;
+	font-family: 'EB Garamond', serif;
+}
+
+#burger{
+	font-size: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#mobMenu #logo{
+	margin-top: 10px;
+}
+
+#menu{
+	float: right;
+	text-align: right;
+	margin-top: 37px;
+	margin-right: 40px;
+	height: 100px;
+}
+.mainBtn{
+	height: 100%;
+	display: inline;
+	font-size: 30px;
+	margin-left: 20px;
+	font-family: 'Dongle', sans-serif;
+	padding-bottom: 18px;
+}
+
+.mainBtn:hover{
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
+
+#mobMenu{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#downMenu{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	display: none;
+}
+#dM{
+ text-align: center;
+ margin-top: 10px;
+}
+
+#dM .mainBtn:hover{
+	border: none;
+}
+
+/* стили для футера*/
+
+footer{
+	width: 100%;
+	background-color: black;
+	border-top: 1px solid silver;
+	height: 400px;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+#words{
+	margin-left: -130px;
+	margin-right: -100px;
+	margin-top: 10px;
+	font-size: 22px;
+	text-align: center;	
+	max-width: 100%;
+}
+
+#words span{
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+.dark{
+	font-family: 'Open Sans', sans-serif;}
+.light{
+	font-family: 'Roboto', sans-serif;
+}
+
+#nr{
+	width: 80%;
+	margin-left: 10%;
+	font-size: 35px;
+	margin-top: 40px;
+	font-family: 'EB Garamond', serif;
+}
+#text{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+#links{
+	margin-top: 30px;
+}
+
+.link{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: underline;
+	font-family: 'Open Sans', sans-serif;
+}
+#rig{
+	margin-top: 60px;
+	width: 80%;
+	margin-left: 10%;
+	font-family: 'Open Sans', sans-serif;
+}

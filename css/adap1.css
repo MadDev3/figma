@@ -1,0 +1,44 @@
+@media only screen and (max-width: 980px){
+	#mobMenu{
+		display: block;
+	}
+	#desk{
+		display: none;
+	}
+
+	/* footer*/
+
+	#nr{
+		margin-top: 20px;
+	}
+
+	#text{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+
+	/*---*/
+
+	#img{
+		width: 100%;
+		margin-left: 0;
+	}
+	#txtB{
+		font-size: 20px;
+		width: 100%;
+		margin-left: 0;
+	}
+	#txtS{
+		width: 100%;
+		margin-left: 0;
+	}
+	#grid{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	#content{
+		width: 100%;
+		margin-left: 0;
+	}
+}

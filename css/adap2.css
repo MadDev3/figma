@@ -1,0 +1,98 @@
+@media only screen and (max-width: 980px){
+	#mobMenu{
+		display: block;
+	}
+	#desk{
+		display: none;
+	}
+
+
+	/* footer*/
+
+	#nr{
+		margin-top: 20px;
+	}
+
+	#text{
+		width: 80%;
+		margin-left: 10%;
+	}
+	/*---*/
+
+	#img1{
+		width: 100%;
+	}
+
+	#txt1{
+		width: 100%;
+		margin-left: 0;
+		font-size: 20px;
+	}
+	#txt2{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.text{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#but{
+		width: 100%;
+		margin-top: -100px;
+	}
+	#t,#f,#w{
+		width: 32.8%;
+		float: left;
+		margin-top: 50px;
+	}
+	#f{
+		border: 1px solid silver;
+	}
+	#t{
+		border-left: none;
+		border-right: none;
+	}
+	#w{
+		display: block;
+	}
+	#post{
+		width: 100%;
+		margin-left: 0;
+	}
+	#imgTxt{
+		width: 100%;
+		margin-left: 0;
+	}
+	#author{
+		display: none;
+	}
+	#share{
+		display: none;
+	}
+	#shareMob{
+		display: block;
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#shareMob #but{
+		margin-top: -50px;
+	}
+
+	#what{
+		width: 100%;
+		margin-left: 0;
+	}
+	#grid3{
+		grid-template-columns: 1fr;
+		width: 90%;
+		margin-left: 5%;
+	}
+	#form{
+		width: 100%;
+		margin-left: 0;
+		border-left: none;
+		border-right: none;
+	}
+}

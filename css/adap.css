@@ -6,7 +6,6 @@
 		display: none;
 	}
 
-
 	/* footer*/
 
 	#nr{
@@ -17,18 +16,35 @@
 		width: 80%;
 		margin-left: 10%;
 	}
-	/*---*/
+
+
+	/* for index.css */
+
+	#img{
+		width: 100%;
+		margin-left: 0;
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	#content{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	/* for detail.html */
 
 	#img1{
 		width: 100%;
 	}
 
-	#txt1{
+	.txt-big{
 		width: 100%;
 		margin-left: 0;
 		font-size: 20px;
 	}
-	#txt2{
+	.txt-small{
 		width: 90%;
 		margin-left: 5%;
 	}
@@ -40,43 +56,43 @@
 		width: 100%;
 		margin-top: -100px;
 	}
-	#t,#f,#w{
+	#twitter1,#facebook1,#whatsapp{
 		width: 32.8%;
 		float: left;
 		margin-top: 50px;
 	}
-	#f{
+	#facebook1{
 		border: 1px solid silver;
 	}
-	#t{
+	#twitter1{
 		border-left: none;
 		border-right: none;
 	}
-	#w{
+	#whatsapp{
 		display: block;
 	}
-	#post{
+	.post{
 		width: 100%;
 		margin-left: 0;
 	}
-	#imgTxt{
+	.imgTxt{
 		width: 100%;
 		margin-left: 0;
 	}
 	#author{
 		display: none;
 	}
-	#share{
+	.share{
 		display: none;
 	}
-	#shareMob{
+	.shareMob{
 		display: block;
 		width: 100%;
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
-	#shareMob #but{
+	.shareMob #but{
 		margin-top: -50px;
 	}
 
@@ -84,7 +100,7 @@
 		width: 100%;
 		margin-left: 0;
 	}
-	#grid3{
+	.grid3{
 		grid-template-columns: 1fr;
 		width: 90%;
 		margin-left: 5%;

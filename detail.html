@@ -6,24 +6,17 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/detail.css">
-	<link rel="stylesheet" type="text/css" href="css/adap2.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/adap.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
 
-<script type="text/javascript" src="js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 <header>
@@ -38,7 +31,7 @@
 	</div>
 	<div id="mobMenu">
 		<div id="logo">NORDIC ROSE</div>
-		<div id="burger" onclick="Show()">&#9776;</div>
+		<div id="burger" onclick="ShowMobileMenu()">&#9776;</div>
 	</div>
 	<div id="downMenu">
 		<div id="dM">
@@ -50,11 +43,11 @@
 	</div>
 </header>
 
-<div id="txt1"><h1>
+<div class="txt-big"><h1>
 	A few words about this blog platform, Ghost, and how this site was made</h1>
 </div>
 
-<div id="txt2">
+<div class="txt-small">
 	Why Ghost (& Figma) instead of Medium,
 	WordPress or other options?
 </div>
@@ -64,14 +57,14 @@
 <div class="text">
 
 	<hr>
-	<div id="ava">
+	<div class="ava">
 		<img src="img/ava.png">
 		<div id="name">MIKA MATIKAINEN</div>
 		<div id="data">Apr 15, 2020 &middot; 4 min read</div>
 		<div id="but">
-		<div id="f"><img src="img/facebook.png"></div>
-		<div id="t"><img src="img/twitter.png"></div>
-		<div id="w"><img src="img/wa.png"></div>
+		<div id="facebook1"><img src="img/facebook.png"></div>
+		<div id="twitter1"><img src="img/twitter.png"></div>
+		<div id="whatsapp"><img src="img/wa.png"></div>
 		</div>
 	</div>
 	<p id="po">
@@ -87,8 +80,8 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 <br>
 Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. 
 	</p>
-	<div id="post"><img src="img/post.png" width="100%"></div>
-	<div id="imgTxt">
+	<div class="post"><img src="img/post.png" width="100%"></div>
+	<div class="imgTxt">
 		Image caption centered this way and I’ll make this a bit 
 		longer to indicate the amount of line-height. 
 	</div>
@@ -111,17 +104,17 @@ In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, a
 
 	<p id="author">Thanks for reading,<br>
 Mika</p>
-<div id="share">
+<div class="share">
 	<div id="twitter"><img src="img/twitter.png">Share on Twitter
 	</div>
 	<div id="facebook"><img src="img/facebook.png">Share on Facebook</div>
 </div>
-<div id="shareMob">
+<div class="shareMob">
 	Share:
 	<div id="but">
-		<div id="f"><img src="img/facebook.png"></div>
-		<div id="t"><img src="img/twitter.png"></div>
-		<div id="w"><img src="img/wa.png"></div>
+		<div id="facebook1"><img src="img/facebook.png"></div>
+		<div id="twitter1"><img src="img/twitter.png"></div>
+		<div id="whatsapp"><img src="img/wa.png"></div>
 	</div>
 </div>
 
@@ -139,31 +132,44 @@ Mika</p>
 
 <div id="what">What to read next?</div>
 
-<div id="grid3">
+
+<div class="grid3">
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art2.png" width="100%">
 			<p>Connecting artificial intelligence with digital product design</p>
 	</div>
+	</a>
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art3.png" width="100%">
 			<p>Hello world, or, in other words, why this blog exists</p>
 	</div>
+	</a>
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art1.png" width="100%">
 			<p>Here are some things you should know regarding how we work </p>
 	</div>
+	</a>
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art13.png" width="100%">
 			<p>A few words about this blog platform, Ghost, and how this site was made</p>
 	</div>
+	</a>
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art14.png" width="100%">
 			<p>Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
 	</div>
+	</a>
+	<a href="#">
 	<div class="artImg">
 		<img src="img/art12.png" width="100%">
 			<p>How modern remote working tools get along with Old School Cowboy's methods</p>
 	</div>
+	</a>
 </div>
 
 <div id="form">

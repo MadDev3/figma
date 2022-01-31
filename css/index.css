@@ -3,14 +3,14 @@
 	margin-left: 20%;
 	margin-top: 50px;
 }
-#txtB{
+.txt-big{
 	width: 60%;
 	margin-left: 20%;
 	text-align: center;
 	margin-top: 30px;
 	font-size: 30px;
 }
-#txtS{
+.txt-small{
 	width: 38%;
 	margin-left: 31%;
 	text-align: center;
@@ -38,7 +38,7 @@
 	width: 100%;
 }
 
-#grid{
+.grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 15px;

@@ -91,11 +91,14 @@ header{
 #dM{
  text-align: center;
  margin-top: 10px;
+ background-color: white;
 }
 
-#dM .mainBtn:hover{
-	border: none;
+#dM .mainBtn{
+	display: block;
+	border-top: 1px solid silver;
 }
+
 
 /* стили для футера*/
 
@@ -103,7 +106,7 @@ footer{
 	width: 100%;
 	background-color: black;
 	border-top: 1px solid silver;
-	height: 400px;
+	height: auto;
 	margin-top: 50px;
 	color: white;
 	text-align: center;

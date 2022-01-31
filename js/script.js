@@ -1,7 +1,7 @@
 
 var bl = "none";
 
-function Show() {
+function ShowMobileMenu() {
 	var block = document.getElementById('downMenu');
 	if (bl=="none") {
 		block.style.display = "block";
